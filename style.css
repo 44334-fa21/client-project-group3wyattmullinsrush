@@ -105,7 +105,7 @@ footer {font-size:70%;
 		  margin-bottom: 10px;
 		  text-align: center;
 }
-audio {margin: auto;}
+
 /*Style Image Gallery  */
 #gallery{position: relative; background-color: #fff;}
 #gallery ul {width: 300px; list-style-type: none;}
@@ -115,34 +115,3 @@ audio {margin: auto;}
 #gallery span{position: absolute; left: -1000px; opacity: 0; transition: opacity 3s ease-in-out;}
 #galpic {position: absolute; left: 350px; top: 30px;}
 #gallery a:hover span {position: absolute; top: 45px; left: 370px; text-align: center; opacity: 1; color: #000;}
-
-
-
-/* Create Media Queries */
-header, main, nav, footer, figure, figcaption { display: block; }
-@media only screen and (max-width: 1024px) {
-	body { margin: 0; background-color: #869dc7;}
-	#wrapper { width: auto; margin: 0;}
-	main { margin-left: 0; }
-	nav { float: none;
-		  width: auto; }
-	nav li { display: inline-block;
-			   padding: 0.5em; }
-	nav ul { text-align: center; }
-	nav a { border-style: none; }
-	h1, h2 { font-size: 120%; }
-	p { font-size: 90%; }
-}
-@media only screen and (max-width: 768px) {
-	#wrapper { min-width: 0; }
-	header { background-image: url(lighthousemini.jpg); }
-	header h1 { padding-left: 0; }
-	h1, h2 { font-size: 100%; }
-	span { font-size: 80%; }
-	figure { display: none;}
-	nav, nav ul, nav li { padding: 0; }
-	nav li { display: block; }
-	nav a { display: block;
-		padding: 0.5em 0;
-		border-bottom: 2px ridge #00005D; }
-	}
