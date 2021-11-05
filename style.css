@@ -1,6 +1,6 @@
 * { box-sizing: border-box;}
 body {font-family: Verdana, Arial, sans-serif;
-	  background-color: #6224b0;
+	  background-color: #42cd81;
 }
 #container {background-color: #42cd81;
 		   color: #000066;
@@ -25,12 +25,18 @@ header span { font-style: italic;
 			  text-align: right;
 			  display: block;
 }
+#container{ list-style: none;
+font-weight: bold;
+    
+
+}
+
 nav {
 	  width: 100%;
 	  letter-spacing:0.1em;
 	  font-weight: bold;
     text-align: center;
-    list-style: none
+    list-style: none;
 	   position: relative; /* for drop down menu */
 }
 
@@ -49,6 +55,7 @@ nav a:visited { color: #eaeaea; }
 nav a:hover {  color: #869dc7;
 			   background-color: #eaeaea;
 }
+nav a:active{ color: }
 
 nav ul ul {position: absolute;
 						left: 130px;
