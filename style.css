@@ -85,9 +85,9 @@ text-align: left;
 .dropdown:hover .dropdown-content {display:block;
 }
 nav a:link { color:#ffffff; }
-nav a:visited { color: #eaeae; }
+nav a:visited { color: #87c444; }
 nav a:hover {  color: #87c444;
-			   background-color: #eaeae;
+			   background-color: #87c444;
 }
 nav a:active{ color: ffffff; }
 
