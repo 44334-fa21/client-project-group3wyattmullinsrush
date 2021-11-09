@@ -19,6 +19,7 @@ h4 {color: #50ade2;}
 header span {font-style: italic;
 							font-wreight: bold;
 							color: #000000;
+							text-align: right;
 							padding-right: 15px;
 							display: block;
 }
