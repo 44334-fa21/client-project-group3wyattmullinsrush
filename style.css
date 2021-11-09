@@ -3,16 +3,14 @@ body {font-family: Verdana, Arial, sans-serif;
 			background-color: #ffffff;
 			margin: 0px;
 	}
-	header {background-color: #ffffff;
-					background-repeat:no-repeat;
-					padding: 10px;
-}
 
 header { background-color: #ffffff;
 		 background-repeat: no-repeat;
 		color: #ffffff;
 		padding: 10px;
 }
+h1 {text-align:center;
+		color: #87c444;}
 h2 {color: #000000;
 		font-family:arial,sans-sans-serif;
 		margin: 10px;
@@ -83,7 +81,7 @@ header span {font-style: italic;
 .dropdown:hover .dropdown-content {
   display: block;
 }
-main{background-color: #ffffff;
+main {background-color: #ffffff;
 			color:#000000;
 			padding: 30px 50px 30px 50px;
 			overflow: auto;
