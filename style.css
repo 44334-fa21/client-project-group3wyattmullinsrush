@@ -1,16 +1,17 @@
 * { box-sizing: border-box;}
 body {font-family: Verdana, Arial, sans-serif;
-	  background-color: #50ade2;
+	  background-color: #ffffff;
 		margin: 0px;
 }
 
-header { background-color: ##50ade2;
+header { background-color: #50ade2;
 		 background-repeat: no-repeat;
 		color: #ffffff;
 		padding: 10px;
 }
 header h1 { text-align: center;
 }
+h4 {color: #50ade2;}
 
 header span { font-style: italic;
 			  font-weight: bold;
@@ -31,7 +32,7 @@ nav {
 	  font-weight: bold;
     text-align: center;
     list-style: none;
-		background-color: #708090;
+		background-color: #50ade2;
 	   position: relative; /* for drop down menu */
 }
 
@@ -39,12 +40,12 @@ nav ul { list-style-type: none;
 		 margin: 0;
 		 padding: 0;
 		 overflow: hidden;
-		 background-color: #708090;
+		 background-color: #50ade2;
 }
 nav li { 	float: left;
 }
 nav li a {display: block;
-					color: white;
+					color: #000000;
 					text-align: center;
 					padding: 14px 16px;
 					text-decoration: none:line-through;
@@ -60,7 +61,7 @@ nav li:hover ul {
 	display: block;
 }
 nav li a: hover, .dropdown:hover .dropbtn {
-	background-color: white;
+	background-color: #000000;
 }
 nav li.dropdown {
 	display: inline-block;
@@ -83,7 +84,7 @@ text-align: left;
 .dropdown-content a:hover {background-color: #f1f1f1;}
 .dropdown:hover .dropdown-content {display:block;
 }
-nav a:link { color:#ffffff ; }
+nav a:link { color:#000000; }
 nav a:visited { color: #eaeae; }
 nav a:hover {  color: #87c444;
 			   background-color: #eaeae;
@@ -93,7 +94,7 @@ nav a:active{ color: }
 nav ul ul {position: absolute;
 						left: 130px;
 					top: 80px;
-				background-color: #708090;
+				background-color: #50ade2;
 			padding: 0px;
 		display: none;
 	text-align: left;
