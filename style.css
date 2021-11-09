@@ -103,10 +103,38 @@ main { background-color: #ffffff;
 		   padding: 30px 50px;
 		   overflow: auto;
 }
+* {
+  box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 30px;
+  height: 200px; 
+margin-left: 25px;
+    margin-right: 100px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 
 h2 { color: #87c444;
 	 font-family: arial, sans-serif;
 	 margin: 5px;
+}
+
+a {
+  color:#50ade2;
+  font-family: helvetica;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 figure {   float: right;
@@ -116,10 +144,7 @@ figure {   float: right;
 		   border: 1px solid #CCC;
 		   box-shadow: 5px 5px 5px #828282;
 }
-figcaption { text-align: center;
-		   font-size: .8em;
-		   font-style: italic;
-}
+
 footer {font-size:70%;
 		 text-align: center;
 		 padding: 10px;
