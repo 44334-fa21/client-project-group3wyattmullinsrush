@@ -10,7 +10,9 @@ header { background-color: #50ade2;
 		padding: 10px;
 }
 header h1 { text-align: center;
+	color: #87c444;
 }
+h2 {color: #000000;}
 h4 {color: #50ade2;}
 
 header span { font-style: italic;
@@ -85,7 +87,7 @@ text-align: left;
 nav a:link { color:#87c444; }
 nav a:visited { color: #ffffff; }
 nav a:hover {  color: #87c444;
-			   background-color: #87c444;
+			   background-color: #000000;
 }
 nav a:active{ color: ffffff; }
 
