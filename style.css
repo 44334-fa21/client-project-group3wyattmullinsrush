@@ -7,9 +7,11 @@ body {font-family: Verdana, Arial, sans-serif;
 					background-repeat:no-repeat;
 					padding: 10px;
 }
-header h1 {text-align: center;
-						color: #87c444;
-						margin:5px;
+
+header { background-color: #ffffff;
+		 background-repeat: no-repeat;
+		color: #ffffff;
+		padding: 10px;
 }
 h2 {color: #000000;
 		font-family:arial,sans-sans-serif;
