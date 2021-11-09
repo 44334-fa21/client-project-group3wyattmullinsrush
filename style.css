@@ -22,8 +22,6 @@ header span { font-style: italic;
 }
 #container{ list-style: none;
 font-weight: bold;
-
-
 }
 
 nav {
@@ -84,8 +82,8 @@ text-align: left;
 .dropdown-content a:hover {background-color: #f1f1f1;}
 .dropdown:hover .dropdown-content {display:block;
 }
-nav a:link { color:#ffffff; }
-nav a:visited { color: #87c444; }
+nav a:link { color:#87c444; }
+nav a:visited { color: #ffffff; }
 nav a:hover {  color: #87c444;
 			   background-color: #87c444;
 }
