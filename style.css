@@ -10,7 +10,9 @@ header { background-color: #50ade2;
 		padding: 10px;
 }
 header h1 { text-align: center;
+	color: #87c444;
 }
+h2 {color: #000000;}
 h4 {color: #50ade2;}
 
 header span { font-style: italic;
@@ -22,8 +24,6 @@ header span { font-style: italic;
 }
 #container{ list-style: none;
 font-weight: bold;
-
-
 }
 
 nav {
@@ -84,10 +84,10 @@ text-align: left;
 .dropdown-content a:hover {background-color: #f1f1f1;}
 .dropdown:hover .dropdown-content {display:block;
 }
-nav a:link { color:#ffffff; }
-nav a:visited { color: #87c444; }
+nav a:link { color:#87c444; }
+nav a:visited { color: #ffffff; }
 nav a:hover {  color: #87c444;
-			   background-color: #87c444;
+			   background-color: #000000;
 }
 nav a:active{ color: ffffff; }
 
