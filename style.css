@@ -4,7 +4,7 @@ body {font-family: Verdana, Arial, sans-serif;
 		margin: 0px;
 }
 
-header { background-color: #50ade2;
+header { background-color: #ffffff;
 		 background-repeat: no-repeat;
 		color: #ffffff;
 		padding: 10px;
@@ -103,7 +103,7 @@ nav ul ul {position: absolute;
 main { background-color: #ffffff;
 		   color: #000000;
 		   padding: 30px 50px;
-		   overflow: auto;
+		   
 }
 * {
   box-sizing: border-box;
@@ -124,6 +124,20 @@ margin-left: 25px;
   content: "";
   display: table;
   clear: both;
+}
+
+/* Clear floats after image/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+
+ containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 
