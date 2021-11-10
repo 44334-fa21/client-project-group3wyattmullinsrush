@@ -95,7 +95,8 @@ main {background-color: #ffffff;
 					width: 25%;
 					padding: 1px;
     height: 300px;
-display:table:}
+display:table;}
+
 
 
 .row:after {
@@ -103,6 +104,11 @@ display:table:}
   display: table;
   clear:none;
 }
+.row {
+  display: flex;
+	padding: 10px;
+}
+
 
 a {color: #50ade2;
 		font-family: helvetica;
