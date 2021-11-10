@@ -93,9 +93,8 @@ main {background-color: #ffffff;
 .column {
 					float: left;
 					width: 25%;
-					padding: 1px;
-    height: 300px;
-display:table:}
+					padding: 10px;
+    }
 
 
 .row:after {
