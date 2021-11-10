@@ -93,34 +93,16 @@ main {background-color: #ffffff;
 .column {
 					float: left;
 					width: 25%;
-					padding: 30px;
-					height: 200px;
-					margin-left:25px;
-					margin-right: 100px;
-}
-/*Clear floats after the columns*/
-.row:after {content:"";
-						display:table;
-						clear:both;
-}
-input[type=text] {
-  width: 130px;
-  box-sizing: border-box;
-  border: 2px solid #ccc;
-  border-radius: 4px;
-  font-size: 16px;
-  background-color: #000000;
-  background-image: url('searchicon.png');
-  background-position: 10px 10px;
-  background-repeat: no-repeat;
-  padding: 12px 20px 12px 40px;
+					padding: 1px;
+    height: 300px;
+display:table:}
 
-  transition: width 0.4s ease-in-out;
-}
-input[type=text]:focus {
-  width: 100%;
-}
 
+.row:after {
+  content: "";
+  display: table;
+  clear:none;
+}
 
 a {color: #50ade2;
 		font-family: helvetica;
