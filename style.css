@@ -102,6 +102,11 @@ main {background-color: #ffffff;
   display: table;
   clear:none;
 }
+.row {
+  display: flex;
+	padding: 10px;
+}
+
 
 a {color: #50ade2;
 		font-family: helvetica;
