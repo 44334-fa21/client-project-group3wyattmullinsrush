@@ -9,7 +9,7 @@ header { background-color: #ffffff;
 		color: #ffffff;
 		padding: 10px;
 }
-h1 {text-align:center;
+h1 {text-align:left;
 		color: #87c444;}
 h2 {color: #000000;
 		font-family:arial,sans-sans-serif;
@@ -89,8 +89,7 @@ main {background-color: #ffffff;
 			padding: 30px 50px;
 			overflow: auto;
 }
-* {box-sizing: border-box;
-}
+
 /*Create four equal columns that float next to each other*/
 .column {
 					float: left;
@@ -105,6 +104,25 @@ main {background-color: #ffffff;
 						display:table;
 						clear:both;
 }
+input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #000000;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus {
+  width: 100%;
+}
+
+
 a {color: #50ade2;
 		font-family: helvetica;
 		text-decoration: none;
