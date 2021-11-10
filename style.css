@@ -17,7 +17,7 @@ h2 {color: #000000;
 }
 h4 {color: #50ade2;}
 header span {font-style: italic;
-							font-wreight: bold;
+							font-weight: bold;
 							color: #000000;
 							text-align: right;
 							padding-right: 25px;
@@ -95,16 +95,17 @@ main {background-color: #ffffff;
 .column {
 					float: left;
 					width: 25%;
-					padding: 30px;
-					height: 200px;
-					margin-left:25px;
-					margin-right: 100px;
+					padding: 1px;
+    height: 300px;
+display:table:}
+				
+
+.row:after {
+  content: "";
+  display: table;
+  clear:none;
 }
-/*Clear floats after the columns*/
-.row:after {content:"";
-						display:table;
-						clear:both;
-}
+
 a {color: #50ade2;
 		font-family: helvetica;
 		text-decoration: none;
