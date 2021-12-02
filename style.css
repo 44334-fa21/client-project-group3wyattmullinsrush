@@ -7,6 +7,7 @@ body {font-family: Verdana, Arial, sans-serif;
 header { background-color: #ffffff;
 		 background-repeat: no-repeat;
 		padding: 10px;
+
 }
 h1 {text-align:left;
 		color: #87c444;}
@@ -87,25 +88,40 @@ header span {font-style: italic;
 				color:#000000;
 				padding: 30px 50px;
 				overflow: auto;
+				margin: 10px;
 	}
+
 
 	/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) and (min-width: 600px){
   .navbar .navbar a {
     float: none;
-    width: 100%;
-  }
+    width: 100%;}
+		.column {
+		width: 100%;
+		}
+		.scolumn {
+		width: 100%;}
 	.dropdown .dropbtn .dropdown-content .dropdown-content a {
     float: none;
     width: 100%;
   }
 }
 
-/* On screens that are 992px wide or less, go from four columns to two columns */
-@media screen and (max-width: 992px) and (min-width: 801px) 
-
-/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-    @media screen and (max-width: 800px) and (min-width: 600px) {}
+@media screen and (max-width: 1080px) and (min-width: 801px) {
+	.navbar .navbar a {
+		float: none;
+		width: 100%;}
+	.column {
+	width: 50%;
+	}
+	.scolumn {
+	width: 50%;}
+	.dropdown .dropbtn .dropdown-content .dropdown-content a {
+		float: none;
+		width: 100%;
+	}
+}
 
 
 

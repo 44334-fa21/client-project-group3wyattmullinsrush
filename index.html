@@ -10,8 +10,31 @@
 	</head>
 
 	<body>
+		<style>
+		* {
+		box-sizing: border-box;
+		}
+
+		/* Create two equal columns that floats next to each other */
+		.column {
+		float: left;
+		width: 50%;
+		padding: 15px;
+		height: 300px; /* Should be removed. Only for demonstration */
+		}
+		/* Create two equal columns that floats next to each other */
+		.scolumn {
+		float: left;
+		width: 50%;
+		padding: 15px;
+		height: 520px; /* Should be removed. Only for demonstration */
+		}
+
+
+
+		</style>
 			<header>
-                <img src="Images/Waubonsie%20Logo.jpg" alt=" Waubonsie Mental Health Center" width="350" height="100">
+            <img src="Images/Waubonsie%20Logo.jpg" alt=" Waubonsie Mental Health Center" width="350" height="100">
 				<span>Established in 1982</span>
 			</header>
 			<div class="navbar">
@@ -63,22 +86,32 @@
 	    </div>
 	</div>
 			<main>
+<h2>Who We Are</h2>
+<div class="row">
+<div class="column" style="background-color:#ffffff;">
+<p>Waubonsie Mental Health Center is an accredited, nonprofit, community mental health center.
+	 Since opening in 1982, it has been our mission to provide accessible, affordable,
+	 quality mental health services to the people of southwest Iowa.</p>
+</div>
+<div class="column" style="background-color:#ffffff;">
+<img src="Images/Dream big.jpg" alt="Calming Photo" width="380" height="300">
+</div>
+</div>
 <br>
-				<h2>Who We Are</h2>
-				<p>Waubonsie Mental Health Center is an accredited, nonprofit, community mental health center.
-					 Since opening in 1982, it has been our mission to provide accessible, affordable,
-					 quality mental health services to the people of southwest Iowa.</p>
-					 <br>
-					 <img src="Images/Dream big.jpg" alt="Calming Photo" width="380" height="300">
-
-				<h2> What We Do</h2>
-				<p><a href="outpatient.html">Outpatient Therapy</a><p>
+<h2>What We Do</h2>
+<div class="srow">
+<div class="scolumn" style="background-color:#ffffff;">
+<img src="Images/lama.jpg" alt="Lama Stuffed Animal" width="380" height="500">
+</div>
+<div class="column" style="background-color:#ffffff;">
+<p><a href="outpatient.html">Outpatient Therapy</a><p>
 <p><a href="medication.html">Medication Management</a></p>
 <p><a href="CSS.html">Community Support Services</a></p>
 <p><a href="IHH.html">Care Coordination</a></p>
 <p><a href="PSC.html">Peer Support Services</a></p>
-<img src="Images/lama.jpg" alt="Lama Stuffed Animal" width="380" height="500">
+</div>
 
+</div>
 			</main>
 			<footer>Copyright &copy; 2021</footer>
     </body>
