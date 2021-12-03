@@ -103,8 +103,7 @@ header span {font-style: italic;
 
 	.row {
 	height: 50%;
-	padding: 15px;
-	height: 300px; /* Should be removed. Only for demonstration */
+	padding: 15px;/* Should be removed. Only for demonstration */
 	}
 
 	/* Create two equal columns that floats next to each other */
@@ -117,8 +116,31 @@ header span {font-style: italic;
 
 	.srow {
 	height: 50%;
+	padding: 15px; /* Should be removed. Only for demonstration */
+	}
+
+	.tcolumn {
+	float: left;
+	width: 50%;
 	padding: 15px;
-	height: 300px; /* Should be removed. Only for demonstration */
+	height: 520px;
+	}
+
+	.trow {
+	height: 50%;
+	padding: 15px;
+	}
+
+	.fcolumn {
+	float: left;
+	width: 50%;
+	padding: 15px;
+	height: 520px;
+	}
+
+	.frow {
+	height: 50%;
+	padding: 15px;
 	}
 
 a {color: #50ade2;
