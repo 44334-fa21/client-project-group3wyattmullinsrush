@@ -92,38 +92,34 @@ header span {font-style: italic;
 	}
 
 
-	/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) and (min-width: 600px){
-  .navbar .navbar a {
-    float: none;
-    width: 100%;}
-		.column {
-		width: 100%;
-		}
-		.scolumn {
-		width: 100%;}
-	.dropdown .dropbtn .dropdown-content .dropdown-content a {
-    float: none;
-    width: 100%;
-  }
-}
 
-@media screen and (max-width: 1080px) and (min-width: 801px) {
-	.navbar .navbar a {
-		float: none;
-		width: 100%;}
+	/* Create two equal columns that floats next to each other */
 	.column {
+	float: left;
 	width: 50%;
+	padding: 15px;
+	height: 300px; /* Should be removed. Only for demonstration */
 	}
+
+	.row {
+	height: 50%;
+	padding: 15px;
+	height: 300px; /* Should be removed. Only for demonstration */
+	}
+
+	/* Create two equal columns that floats next to each other */
 	.scolumn {
-	width: 50%;}
-	.dropdown .dropbtn .dropdown-content .dropdown-content a {
-		float: none;
-		width: 100%;
+	float: left;
+	width: 50%;
+	padding: 15px;
+	height: 520px; /* Should be removed. Only for demonstration */
 	}
-}
 
-
+	.srow {
+	height: 50%;
+	padding: 15px;
+	height: 300px; /* Should be removed. Only for demonstration */
+	}
 
 a {color: #50ade2;
 		font-family: helvetica;
@@ -135,4 +131,25 @@ footer {font-size: 70%;
 				padding: 10px;
 				background-color: #50ade2;
 				clear:both;
+}
+
+/* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) and (min-width: 600px){
+  .navbar .navbar a {
+    float: none;
+    width: 100%;}
+	.dropdown .dropbtn .dropdown-content .dropdown-content a {
+    float: none;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1080px) and (min-width: 801px) {
+	.navbar .navbar a {
+		float: none;
+		width: 100%;}
+	.dropdown .dropbtn .dropdown-content .dropdown-content a {
+		float: none;
+		width: 100%;
+	}
 }
