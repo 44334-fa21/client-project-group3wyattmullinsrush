@@ -87,7 +87,8 @@ header span {font-style: italic;
 	main {background-color: #ffffff;
 				color:#000000;
 				padding: 30px 50px;
-				overflow: hidden;
+				overflow: auto;
+				overflow-x: hidden;
 				margin: 10px;
 	}
 
