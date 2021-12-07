@@ -87,7 +87,7 @@ header span {font-style: italic;
 	main {background-color: #ffffff;
 				color:#000000;
 				padding: 30px 50px;
-				overflow: auto;
+				overflow: hidden;
 				margin: 10px;
 	}
 
@@ -106,7 +106,7 @@ header span {font-style: italic;
 	padding: 15px;/* Should be removed. Only for demonstration */
 	}
 
-	
+
 
 a {color: #50ade2;
 		font-family: helvetica;
